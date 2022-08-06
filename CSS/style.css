@@ -7,8 +7,16 @@ header {
 nav {
     float: left;
     background-color: aquamarine;
-    height:  500px;
+    height: 100px;
     width: 30%;
+    
+    
+}
+
+img{
+
+    
+
 }
 
 main {
@@ -27,3 +35,5 @@ footer  {
     width: 100%;
     float:left;
 }
+
+
