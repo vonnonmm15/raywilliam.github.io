@@ -1,0 +1,38 @@
+body{
+    height: 1500px;
+    position: relative;
+}
+
+li{
+display: inline;
+padding: 10px;
+list-style: none;
+
+}
+a{
+    text-decoration: none;
+
+}
+
+#navbar1 {
+    background-color: rgb(41, 179, 187);
+    position: fixed;
+    top: 150px;
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar2 {
+    background-color: rgb(20, 227, 242);
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+
+#navbar3 {
+    background-color: rgb(184, 225, 22);
+    position: absolute;
+    bottom: ;
+    width: 100%;
+    padding: 10px;
+}
