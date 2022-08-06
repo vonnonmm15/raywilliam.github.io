@@ -1,0 +1,128 @@
+header h1{ 
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+
+
+}
+   header { 
+        background-color: rgb(235, 230, 222);
+        border: 1px;
+        border-color: black;
+        border: solid;
+        padding: 0px;
+        width: 84%;
+        float: right;
+    }
+
+nav{
+    
+
+}
+ 
+header h2{
+        
+        font-size: xx-small;
+        color: blue;
+        text-align: center;
+        margin: ;
+        
+
+
+    }
+
+    main{
+        margin: 1px;
+        background-color: aquamarine;
+        height: 200px;
+        width: 44%;
+        float: right;
+    }
+    
+
+    .main {
+        margin: 1px;
+        background-color: aqua;
+        height: 200px;
+        width: 40%;
+        float: right;
+    }
+    
+     nav{
+            background-color: rgb(230, 230, 246);
+            margin: 1px;
+            width: 15%;
+            float: left;
+            text-align: left;
+            
+
+
+    
+    }
+    nav ul{
+        padding-left: 25px;
+    }
+    main h1{
+        background-color: greenyellow;
+        height: 25px;
+        
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 2px;
+        text-align: left;
+        font-size: 17pt;
+        padding: 2px;
+    }
+
+    .main h1{
+        background-color: greenyellow;
+        height: 25px;
+        
+        margin-left: 4px;
+        margin-right: 4px;
+        margin-top: 2px;
+        text-align: left;
+        font-size: 17pt;
+        padding: 2px;
+
+    }
+
+    main p{
+        padding: 10px;
+
+
+    }
+
+    .main p{
+        padding: 10px;
+
+    }
+
+    footer{
+        background-color: rgb(218, 186, 10);
+        height: 270px;
+        width: 84%;
+        float: right;
+        margin: 2px;
+
+
+    }
+    footer h1{
+        background-color: rgb(124, 124, 8);width: 98.8%;margin: 4px;;
+        font-size: 17pt;
+        padding: 2px;
+        
+    }
+    footer img{
+
+        padding: 2px;
+    }
+
+    footer p{
+        float: right;
+        width: 83%;
+
+    }

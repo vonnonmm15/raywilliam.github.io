@@ -1,0 +1,29 @@
+header {
+    background-color: wheat;
+    height: 40px; 
+    float: ;
+}
+
+nav {
+    float: left;
+    background-color: aquamarine;
+    height:  500px;
+    width: 30%;
+}
+
+main {
+
+    background-color: gold;
+    height: 500px;
+    width: 70%;
+    float: left;
+
+
+}
+
+footer  {
+    background-color: blue;
+    height: ;
+    width: 100%;
+    float:left;
+}
