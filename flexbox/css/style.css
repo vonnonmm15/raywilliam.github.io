@@ -1,0 +1,33 @@
+body{
+    height: 1500px;
+    position: relative;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+
+a:hover{
+    background-color: rgb(104, 43, 48);
+    padding: 10px;
+
+}
+nav {
+    background-color: rgb(41, 179, 187);
+    width: 100%;
+    padding: 10px;
+}
+
+#home {
+margin-right: auto;
+
+}
