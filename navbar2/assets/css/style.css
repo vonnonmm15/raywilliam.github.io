@@ -1,11 +1,17 @@
 nav {
     background-color: blueviolet;
+    border-radius: 10px;
 }
 
 li {
 padding: 10px;
 list-style: none;
 
+
+}
+a
+{
+    text-decoration: none;
 }
 ul {
     display: flex;
@@ -31,6 +37,7 @@ a:hover {
 
 
 }
+
 
 
 .dropdown:hover .dropdown-menu{
