@@ -1,0 +1,16 @@
+form{
+    display: inline;
+    align-content: center;
+    
+}
+input:invalid{
+    border:  red solid 2px;
+}    
+
+input:valid{ 
+    border: blue solid 2px;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1515008346526-e36a0c621e68?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+}
+
