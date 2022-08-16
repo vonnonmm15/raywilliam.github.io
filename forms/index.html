@@ -11,21 +11,29 @@
     <fieldset>
     <h2>CREATE A NEW ACCOUNT</h2>
     <H3>it's quick and easy.</H3>
-    <Fieldset id="fieldset">
+
     <form>
         <div>
+            F
         <label for="firstname"></label> <label for="lastname"></label><BR>
-        <input type="text" name="firstname" value="First name">
+        <input type="text" name="firstname" value="First name" required
+         minlength="3" maxlength="20">
     
         <label for="lastname"></label> 
-        <input type="text" name="lastname" value="Last name" >
+        <input type="text" name="lastname" value="Last name" required
+        min="3" max="20" >
         <br>
         </div>
+        EMAIL
         <label for="mobile_email"></label> <br>
-        <input type="text" name="mobile_email" value="Mobile number or email" >
+        <input type="text" name="mobile_email" value="Mobile number or email" required
+        min="8" max="25" >
         <br>
+        PASSWORD
         <label for="newpassword"></label> <br>
-        <input type="text" name="newpassword" value="New password" >
+        
+        <input type="text" name="newpassword" value="New password" required
+        minlength="4" maxlength="20" >
         <br>Birthday <br>
             
         <select name="Birthday">
@@ -34,14 +42,14 @@
             <option value="OCT">OCT</option>
             <option value="NOV">NOV</option>
         </select> 
-        <select name="Birthday">
+        <select name="Birthday" required>
             <option value="15">15</option>
             <option value="16">16</option>
             <option value="17">17</option>
             <option value="18">18</option>
         </select> 
         
-        <select name="Birthday">
+        <select name="Birthday" required>
             <option value="2022">2022</option>
             <option value="2021">2021</option>
             <option value="2020">2020</option>
@@ -51,12 +59,12 @@
         <BR>
             
             <label for="gender">GENDER</label> <br>
-            <input type="radio" name="Gender" value="MALE"> MALE 
-            <input type="radio" name="Gender" value="FEMALE"> FEMALE
+            <input type="radio" name="Gender" value="MALE" required> MALE 
+            <input type="radio" name="Gender" value="FEMALE" required> FEMALE
             <br>
             <button>sign  up</button>
         </form>
-    </Fieldset>
+    
     </fieldset>
         
 
