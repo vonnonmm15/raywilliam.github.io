@@ -1,33 +1,32 @@
-form{
-    display: inline;
-    align-content: center;
-    
-}
 
 h2{
-    color: beige;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 h3{
-    color: beige;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: smaller;
+    
+}
+input{
+    align-self: center;
+    width: fit-content;
 }
 fieldset{
    align-self: center ;
-    background-color: aquamarine;
-    width: 500px ;
-    margin: 150px;
+    background-color: rgb(141, 145, 144);
+    width: 375px ;
+    margin-left: 250px;
+    border-radius: 20px;
+    padding: 75px;
+    
 }
 body{
 
-    background-image: url(../images/waterfall.jpeg);
+    background-color: antiquewhite;
 }
-
-form{
-    text-align: center;
-}
-input {
-    text-align: center;
-}input:invalid{
+input:invalid{
     border: solid red 2px;
 
 }
