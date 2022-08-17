@@ -9,6 +9,10 @@ h3{
     font-size: smaller;
     
 }
+.longer{
+    width: 260px;
+    align-self: center;
+}
 input{
     align-self: center;
     width: fit-content;
@@ -16,10 +20,10 @@ input{
 fieldset{
    align-self: center ;
     background-color: rgb(141, 145, 144);
-    width: 375px ;
+    width: 250px ;
     margin-left: 250px;
     border-radius: 20px;
-    padding: 75px;
+    padding: 40px;
     
 }
 body{
@@ -33,3 +37,7 @@ input:invalid{
 input:valid {
     border: solid  green 2px;
 }
+button{margin: auto;
+margin-left: 100px
+;
+width: 60px;}
