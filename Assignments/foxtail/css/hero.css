@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .site-hero {
     display: flex;  
-    background-image: url(../assets/branding/parralax-background.jpeg);
+    background-image: url(../assets/branding/peter-wendt--r5KSMkyoSc-unsplash.jpg);
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -14,8 +14,8 @@
 
 }
 .hero-text {
-    font-family: 'Rubik Neue', cursive;
-    font-style: italic;
+    font-family: 'Lobster', cursive;
+    
     font-weight: bold;
     color: white;
     text-shadow: 3px 3px 3px black;
@@ -27,4 +27,16 @@
 .button {
     
     margin-left: 600px;
+}
+.grid {
+    display: grid;
+    grid-column: 2;
+    grid-row: 5;
+    margin-left: 100px;
+    margin-top: 20px;
+    gap: 40px;
+    text-align: center;
+    font-size: xx-small;
+    
+    
 }
