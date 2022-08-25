@@ -38,6 +38,22 @@ header {
   background-color:#f8feff;
   color:#e1a177;
 }
+h2{
+  text-align: center;
+  position: sticky ;
+  justify-content: center;
+  padding-right: 130px;
+  font-family: 'Lobster', cursive;
+  font-size: xx-large;
+}
+#carouselExampleSlidesOnly {
+  width: 20%;
+  float: right;
+  padding: 0px;
+  margin: 0px;
+
+  
+}
 .header-top{
   width:175px;
   height: 125px;
@@ -137,6 +153,16 @@ main {
   color:#e1a177;
   box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
   margin:50px 0px;
+  
+}
+.content1 {
+  background-color: #f8feff;
+  border:2px solid #e1a177;
+  padding:15px;
+  color:#e1a177;
+  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+  margin:50px 0px;
+  height: 450px;
 }
 .content-header {
   font-size: 42pt;
@@ -159,6 +185,11 @@ main {
 }
 .content-content {
   padding:20px;
+}
+.content-content1 {
+  padding:20px;
+  width: 75%;
+  float: left;
 }
 
 
